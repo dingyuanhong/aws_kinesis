@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{cf431034-af7a-49ec-bfa8-869afbdeaf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg">
+      <UniqueIdentifier>{71648798-0e2a-489b-b22d-d24e0401ca02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg\MediaAudio">
+      <UniqueIdentifier>{0eddbc74-be20-4f31-a7f2-f3dce4af7a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg\MediaSource">
+      <UniqueIdentifier>{b52c7fb4-ac97-4dff-bd40-938decab67d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg\MemManager">
+      <UniqueIdentifier>{081ba274-f728-48cb-ac6a-6437682d73fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core\log.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\thread_win.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaAudio\MediaSynchronise.cpp">
+      <Filter>FFmpeg\MediaAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\AudioDecoder.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\AudioTranscode.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\MediaConvert.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\MediaDecoder.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\VideoDecoder.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\EvoAttributeMemory.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\EvoAVFrame.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\EvoMemory.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\EvoPacket.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\EvoPacketAllocator.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\EvoTPacket.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\PacketList.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager\PacketPool.cpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\MediaSource.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaSource\MediaSourceBase.cpp">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\log.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\memory_util.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\thread.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\thread_win.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaAudio\MClock.h">
+      <Filter>FFmpeg\MediaAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaAudio\MediaSynchronise.h">
+      <Filter>FFmpeg\MediaAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaAudio\sdl_extend.h">
+      <Filter>FFmpeg\MediaAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\AudioDecoder.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\AudioTranscode.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\EvoPacketGroup.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\MediaConvert.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\MediaDecoder.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\VideoDecoder.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoAttributeMemory.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoAVFrame.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoLock.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoMemory.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoPacket.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoPacketAllocator.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoQueue.hpp">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\EvoTPacket.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\PacketList.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager\PacketPool.h">
+      <Filter>FFmpeg\MemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\MediaSource.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaSource\MediaSourceBase.h">
+      <Filter>FFmpeg\MediaSource</Filter>
+    </ClInclude>
+    <ClInclude Include="FFheader.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="core\time_util.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\lock.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
